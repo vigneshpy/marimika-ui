@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 30px;
+    margin-right: 10px;
+}
+
+.brand-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link {
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.nav-link:hover {
+    color: #007A80;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    color: #007A80;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 20px 0 0 20px;
+    outline: none;
+}
+
+.search-button,
+.camera-button {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-left: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.search-button {
+    border-radius: 0 20px 20px 0;
+}
+
+.camera-button {
+    margin-left: 5px;
+    border-radius: 20px;
+}
+
+.user-actions {
+    display: flex;
+    align-items: center;
+}
+
+.user-button,
+.language-button,
+.avatar-button {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.language-button {
+    border: 1px solid #007A80;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #007A80;
+}
+
+.avatar-button {
+    border-radius: 50%;
+    background-color: #007A80;
+    color: white;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
